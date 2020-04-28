@@ -1,0 +1,5 @@
+make
+cd ../scripts/
+sh execute.sh
+sh get_time_unit.sh
+sh calc_time.sh >../output/SP_time_data.txt
