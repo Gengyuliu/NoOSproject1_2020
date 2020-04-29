@@ -2,4 +2,5 @@ make
 cd ../scripts/
 sh execute.sh
 sh get_time_unit.sh
-sh calc_time.sh >../output/SP_time_data.txt
+sh calc_time_FIFO_SJF.sh >../output/SP_time_data_FIFO_SJF.txt
+sh calc_time_RR_PSJF.sh >../output/SP_time_data_RR_PSJF.txt
